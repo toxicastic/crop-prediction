@@ -44,8 +44,8 @@ st.markdown('<style>' + open('css/title.css').read() + '</style>', unsafe_allow_
 
 
 st.markdown(html, unsafe_allow_html=True)
-r1=pd.read_csv(r"D:\Crop-Advisory-for-Farmers-main\Dataset\r1.csv")
-crop_data=pd.read_csv(r"D:\Crop-Advisory-for-Farmers-main\Dataset\crop_data.csv")
+r1=pd.read_csv("Dataset/r1.csv")
+crop_data=pd.read_csv("Dataset/crop_data.csv")
 st.markdown('<div class="title">कृषि उपज मार्गदर्शक 🌾 </div>', unsafe_allow_html=True)
 
 st.sidebar.write('<div class="subheader-sidebar">राज्य की पसंदगी :</div>',unsafe_allow_html=True)	
