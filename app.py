@@ -55,7 +55,7 @@ attributes=[]
 
 
 #rainfall prediction
-st.write('<div class="subheader">Predicted rainfall in your state in 2020 :<br>[अनुमानित बारिश  वर्ष 2020 में] </div>',unsafe_allow_html=True)
+st.write('<div class="subheader">Predicted rainfall in your state in 2022 :<br>[अनुमानित बारिश  वर्ष 2020 में] </div>',unsafe_allow_html=True)
 x=pd.DataFrame(r1,columns=['le_state','le_year'])
 y=pd.DataFrame(r1,columns=['rainfall_avg'])
 lr=GradientBoostingRegressor(learning_rate=0.1,n_estimators=246,min_samples_leaf=80,random_state=40).fit(x,y)
